@@ -1,0 +1,11 @@
+[project]
+name = "fundamental-lab"
+version = "0.1.0"
+description = "A-share multi-agent fundamental factor research laboratory"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+filterwarnings = ["ignore::DeprecationWarning"]
+

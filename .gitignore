@@ -1,0 +1,12 @@
+.venv/
+.tools/
+node_modules/
+frontend/dist/
+runtime/
+.pytest_cache/
+__pycache__/
+*.pyc
+.env
+frontend/tsconfig.tsbuildinfo
+.superpowers/
+tmp/
